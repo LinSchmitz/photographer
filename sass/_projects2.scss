@@ -1,0 +1,72 @@
+.projects2 {
+  // grid-column: col-start 2 / col-start 4;
+  grid-row: 4 / 5;
+
+  display: grid;
+  grid-template-rows: 1fr minmax(min-content, max-content) minmax(
+      min-content,
+      max-content
+    );
+  grid-template-columns: minmax(min-content, max-content);
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 1fr;
+
+  width: 40vw;
+  height: 70vh;
+  border: none;
+  border-radius: 50px;
+  background-color: $color-primary;
+  background-size: cover;
+  background-position: center;
+
+  padding: 3rem;
+  transition: all 0.7s;
+
+  justify-content: center;
+
+  &__p,
+  &__title,
+  &__location {
+    color: $color-grey-light-1;
+    font-size: 3rem;
+    font-family: $font-display;
+  }
+
+  &__p {
+    font-size: 3rem;
+  }
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__location {
+    font-size: 2rem;
+  }
+
+  &__btn {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid $color-primary-dark;
+    justify-self: end;
+    transition: all 0.3s;
+  }
+
+  &__btn:hover {
+    transform: translateY(-3px);
+  }
+
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.projects2:hover {
+  background-image: url(../img/gal-3.jpeg);
+  background-size: cover;
+  background-position: center;
+}

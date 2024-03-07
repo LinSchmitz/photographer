@@ -1,0 +1,17 @@
+.projects {
+  // background-color: #fff;
+  grid-row: 4 / 5;
+  grid-column: col-start 1/ -1;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  height: 70vh;
+
+  border: none;
+  border-radius: 50px;
+
+  display: grid;
+  justify-content: center;
+  grid-column-gap: 5rem;
+  // grid-template-rows: 1fr;
+  // grid-template-columns: 1fr 2fr 1fr;
+}

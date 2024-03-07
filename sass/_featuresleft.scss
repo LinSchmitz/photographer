@@ -1,0 +1,74 @@
+.features__left {
+  background-color: $color-primary;
+  grid-column: col-start 1 / col-end 3;
+  background-image: url(../img/gal-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  border: none;
+  border-radius: 50px;
+
+  margin-top: 1rem;
+  padding: 2rem 5rem 0 5rem;
+
+  display: grid;
+  grid-template-rows: repeat(2, max-content) 1fr;
+  grid-template-columns: repeat(2, max-content);
+  grid-column-gap: 28rem;
+  justify-content: end;
+
+  .features-btn-back,
+  .features-btn-next {
+    grid-row: 2 / 3;
+    width: 15rem;
+    margin-top: 20rem;
+    border: none;
+    background-color: transparent;
+    // color: $color-grey-dark-2;
+  }
+
+  .features-btn-back {
+    grid-column: 1 / 2;
+  }
+
+  .features-btn-next {
+    grid-column: 2 / 3;
+  }
+
+  .svg-icon {
+    grid-column: 2 / -1;
+    width: 5rem;
+    height: 5rem;
+    margin-top: 3.5rem;
+    align-items: end;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .svg-icon:hover {
+    scale: 1.2;
+  }
+
+  .svg-icon-arrow {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .svg-icon-arrow:hover {
+    scale: 1.2;
+  }
+
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect,
+  .svg-icon-arrow path,
+  .svg-icon-arrow polygon,
+  .svg-icon-arrow rect {
+    fill: $color-primary;
+  }
+
+  .svg-icon circle,
+  .svg-icon-arrow circle {
+    stroke: $color-primary;
+    stroke-width: 1;
+  }
+}

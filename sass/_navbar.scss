@@ -1,0 +1,35 @@
+.navbar {
+  // background-color: #fff;
+  grid-column: 1 / col-end 5;
+  grid-row: 1 / 2;
+  cursor: pointer;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  // @media only screen and (max-width: $bp-large) {
+  //   grid-column: 1/-1;
+  //   grid-row: 1/2;
+  //   justify-content: flex-end;
+  //   align-items: center;
+  // }
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 3rem;
+
+  align-items: center;
+
+  list-style: none;
+  color: $color-grey-light-1;
+  font-family: $font-display;
+  font-size: 3rem;
+}
+
+.nav-li {
+  margin-top: 3.5rem;
+}

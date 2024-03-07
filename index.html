@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>grid template</title>
+  </head>
+
+  <!-- icons : https://svgicons.sparkk.fr/ -->
+  <!-- social media icons :https://iconscout.com/icons/twitter -->
+
+  <body class="container">
+    <nav class="navbar">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path
+          fill="none"
+          d="M9.958,5.956c-2.577,0-4.667,2.089-4.667,4.667c0,2.577,2.089,4.667,4.667,4.667s4.667-2.09,4.667-4.667
+          C14.625,8.045,12.535,5.956,9.958,5.956z M9.958,14.123c-1.933,0-3.5-1.568-3.5-3.5c0-1.933,1.567-3.5,3.5-3.5s3.5,1.567,3.5,3.5
+          C13.458,12.555,11.891,14.123,9.958,14.123z M18.124,3.623h-2.916l-0.583-1.167c0,0-0.522-1.167-1.167-1.167h-7
+          c-0.645,0-1.167,1.167-1.167,1.167L4.708,3.623H1.792c-0.645,0-1.167,0.522-1.167,1.167v12.832c0,0.645,0.522,1.168,1.167,1.168
+          h16.333c0.645,0,1.167-0.523,1.167-1.168V4.789C19.291,4.145,18.769,3.623,18.124,3.623z M18.124,17.039
+          c0,0.322-0.261,0.582-0.583,0.582H2.375c-0.323,0-0.583-0.26-0.583-0.582V5.373c0-0.323,0.261-0.583,0.583-0.583h2.954
+          C5.316,4.74,5.292,4.695,5.292,4.643l0.933-1.458c0,0,0.418-0.729,0.934-0.729h5.6c0.516,0,0.934,0.729,0.934,0.729l0.934,1.458
+          c0,0.052-0.024,0.097-0.038,0.146h2.954c0.322,0,0.583,0.261,0.583,0.583V17.039z"
+        ></path>
+      </svg>
+
+      <!-- <img src="img/camera.svg" alt="logo" class="logo" fill="#fff" /> -->
+      <ul class="nav-ul">
+        <li class="nav-li">Home</li>
+        <li class="nav-li">Works</li>
+        <li class="nav-li">Contact</li>
+      </ul>
+    </nav>
+    <header class="header">
+      <img src="./img/profile.jpeg" alt="realtor-2" class="header__img" />
+      <h1 class="heading-1">
+        I am Leilan, a dedicated freelance photographer. With a keen eye for
+        detail and a passion for storytelling, I capture moments that speak
+        volumes.
+      </h1>
+      <p class="heading-p">
+        My work is a fusion of technical expertise and artistic flair, creating
+        a visual journey that leaves a lasting impression.
+      </p>
+      <div class="header__links">
+        <a
+          href="https://twitter.com/NaLeilan"
+          target="_blank"
+          class="links-link"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="none"
+            viewBox="0 0 512 512"
+            id="twitter"
+          >
+            <g clip-path="url(#clip0_84_15698)">
+              <path
+                fill="#fff"
+                d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"
+              ></path>
+            </g>
+            <defs>
+              <clipPath id="clip0_84_15698">
+                <rect width="512" height="512" fill="#fff"></rect>
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+
+        <a href="#" target="-blank" class="links-link">
+          <svg
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 448 512"
+            height="30"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            ></path>
+          </svg>
+        </a>
+
+        <a href="#" target="-blank" class="links-link">
+          <svg
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 448 512"
+            height="30"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <div class="sideimg"></div>
+
+    <section class="features__left">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path
+          d="M13.22,2.984c-1.125,0-2.504,0.377-3.53,1.182C8.756,3.441,7.502,2.984,6.28,2.984c-2.6,0-4.714,2.116-4.714,4.716c0,0.32,0.032,0.644,0.098,0.96c0.799,4.202,6.781,7.792,7.46,8.188c0.193,0.111,0.41,0.168,0.627,0.168c0.187,0,0.376-0.041,0.55-0.127c0.011-0.006,1.349-0.689,2.91-1.865c0.021-0.016,0.043-0.031,0.061-0.043c0.021-0.016,0.045-0.033,0.064-0.053c3.012-2.309,4.6-4.805,4.6-7.229C17.935,5.1,15.819,2.984,13.22,2.984z M12.544,13.966c-0.004,0.004-0.018,0.014-0.021,0.018s-0.018,0.012-0.023,0.016c-1.423,1.076-2.674,1.734-2.749,1.771c0,0-6.146-3.576-6.866-7.363C2.837,8.178,2.811,7.942,2.811,7.7c0-1.917,1.554-3.47,3.469-3.47c1.302,0,2.836,0.736,3.431,1.794c0.577-1.121,2.161-1.794,3.509-1.794c1.914,0,3.469,1.553,3.469,3.47C16.688,10.249,14.474,12.495,12.544,13.966z"
+        ></path>
+      </svg>
+      <button class="features-btn-back">
+        <svg class="svg-icon-arrow" viewBox="0 0 20 20">
+          <path
+            d="M8.388,10.049l4.76-4.873c0.303-0.31,0.297-0.804-0.012-1.105c-0.309-0.304-0.803-0.293-1.105,0.012L6.726,9.516c-0.303,0.31-0.296,0.805,0.012,1.105l5.433,5.307c0.152,0.148,0.35,0.223,0.547,0.223c0.203,0,0.406-0.08,0.559-0.236c0.303-0.309,0.295-0.803-0.012-1.104L8.388,10.049z"
+          ></path>
+        </svg>
+      </button>
+      <button class="features-btn-next">
+        <svg class="svg-icon-arrow" viewBox="0 0 20 20">
+          <path
+            d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z"
+          ></path>
+        </svg>
+      </button>
+    </section>
+
+    <section class="features__right">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path
+          fill="none"
+          d="M16.85,7.275l-3.967-0.577l-1.773-3.593c-0.208-0.423-0.639-0.69-1.11-0.69s-0.902,0.267-1.11,0.69L7.116,6.699L3.148,7.275c-0.466,0.068-0.854,0.394-1,0.842c-0.145,0.448-0.023,0.941,0.314,1.27l2.871,2.799l-0.677,3.951c-0.08,0.464,0.112,0.934,0.493,1.211c0.217,0.156,0.472,0.236,0.728,0.236c0.197,0,0.396-0.048,0.577-0.143l3.547-1.864l3.548,1.864c0.18,0.095,0.381,0.143,0.576,0.143c0.256,0,0.512-0.08,0.729-0.236c0.381-0.277,0.572-0.747,0.492-1.211l-0.678-3.951l2.871-2.799c0.338-0.329,0.459-0.821,0.314-1.27C17.705,7.669,17.316,7.343,16.85,7.275z M13.336,11.754l0.787,4.591l-4.124-2.167l-4.124,2.167l0.788-4.591L3.326,8.5l4.612-0.67l2.062-4.177l2.062,4.177l4.613,0.67L13.336,11.754z"
+        ></path>
+      </svg>
+
+      <h2 class="heading-2">Have a photography project in mind ?</h2>
+      <p class="text">Let's discuss your project</p>
+      <button class="email-btn">email</button>
+    </section>
+
+    <div class="projects">
+      <div class="projects1"></div>
+      <div class="projects2">
+        <p class="projects2__p">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ea
+          qui inventore commodi! Sed quaerat quisquam expedita nihil veniam.
+          Consequatur ?
+        </p>
+        <h4 class="projects2__title">Project Title</h4>
+        <div class="projects2__group">
+          <h4 class="projects2__location">Project Location</h4>
+          <button class="projects2__btn">&rarr;</button>
+        </div>
+      </div>
+      <div class="projects3"></div>
+    </div>
+
+    <section class="contact">
+      <svg class="svg-icon" viewBox="0 0 20 20">
+        <path
+          d="M16.999,4.975L16.999,4.975C16.999,4.975,16.999,4.975,16.999,4.975c-0.419-0.4-0.979-0.654-1.604-0.654H4.606c-0.584,0-1.104,0.236-1.514,0.593C3.076,4.928,3.05,4.925,3.037,4.943C3.034,4.945,3.035,4.95,3.032,4.953C2.574,5.379,2.276,5.975,2.276,6.649v6.702c0,1.285,1.045,2.329,2.33,2.329h10.79c1.285,0,2.328-1.044,2.328-2.329V6.649C17.724,5.989,17.441,5.399,16.999,4.975z M15.396,5.356c0.098,0,0.183,0.035,0.273,0.055l-5.668,4.735L4.382,5.401c0.075-0.014,0.145-0.045,0.224-0.045H15.396z M16.688,13.351c0,0.712-0.581,1.294-1.293,1.294H4.606c-0.714,0-1.294-0.582-1.294-1.294V6.649c0-0.235,0.081-0.445,0.192-0.636l6.162,5.205c0.096,0.081,0.215,0.122,0.334,0.122c0.118,0,0.235-0.041,0.333-0.12l6.189-5.171c0.099,0.181,0.168,0.38,0.168,0.6V13.351z"
+        ></path>
+      </svg>
+      <!-- <img src="./img/favicon.png" alt="logo" class="contact__logo" /> -->
+      <h2 class="heading-2">Have a photography project in mind ?</h2>
+      <p class="contact__text">Let's discuss your project</p>
+      <div class="contact__btns">
+        <button class="email-btn">email</button>
+        <div class="contact__links">
+          <a
+            href="https://twitter.com/NaLeilan"
+            target="_blank"
+            class="links-link"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="none"
+              viewBox="0 0 512 512"
+              id="twitter"
+            >
+              <g clip-path="url(#clip0_84_15698)">
+                <path
+                  fill="#fff"
+                  d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"
+                ></path>
+              </g>
+              <defs>
+                <clipPath id="clip0_84_15698">
+                  <rect width="512" height="512" fill="#fff"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <a href="#" target="-blank" class="links-link">
+            <svg
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="30"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+              ></path>
+            </svg>
+          </a>
+
+          <a href="#" target="-blank" class="links-link">
+            <svg
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              height="30"
+              width="30"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="artickle">
+      <h2 class="heading-2">Artickles</h2>
+      <p class="artickle__text">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <button class="artickle__btn">&rarr;</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="nav">
+        <li class="nav__item">
+          <a href="#" class="nav__link" target="_blank">Photos</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link" target="_blank">Request</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link" target="_blank">About</a>
+        </li>
+      </ul>
+      <p class="copyright">
+        &copy; Copyright 2024 by
+        <a href="https://twitter.com/NaLeilan" target="_blank" class="owner"
+          >Leilan Na.</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

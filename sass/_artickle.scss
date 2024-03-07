@@ -1,0 +1,65 @@
+.artickle {
+  background-image: linear-gradient(
+      rgba($color-blue-1, 0.7),
+      rgba($color-blue-1, 0.7)
+    ),
+    url(../img/gal-12.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-row: 5 / -1;
+  grid-column: col-start 3 / -1;
+  padding-left: 3rem;
+
+  border: none;
+  border-radius: 50px;
+
+  display: grid;
+  grid-template-rows: minmax(min-content, max-content);
+  grid-template-columns: minmax(min-content, max-content);
+
+  // grid-row-gap: 5rem;
+  justify-content: center;
+  transition: all 0.7s;
+
+  .heading-2 {
+    font-size: 3.5rem;
+    margin-top: 6rem;
+    color: $color-grey-light-1;
+  }
+
+  &__text {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.7rem;
+    width: 50%;
+    color: $color-gray-dark-1;
+  }
+
+  &__btn {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid $color-primary-dark;
+    justify-self: end;
+    transition: all 0.3s;
+    margin-right: 3rem;
+  }
+
+  &__btn:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.svg-icon {
+  margin-bottom: 3rem;
+}
+
+.artickle:hover {
+  background-image: url(../img/gal-12.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translateY(-3px);
+}
