@@ -2,9 +2,7 @@
 
 A clean and responsive photography portfolio template built using HTML and CSS. Perfect for freelancers or creative professionals looking to showcase their work and connect with potential clients.
 
-## 🌐 Live Preview
-
-> Coming soon...
+## [ 🌐 Live Preview](https://linschmitz.github.io/photographer/)
 
 ---
 
@@ -19,21 +17,6 @@ A clean and responsive photography portfolio template built using HTML and CSS. 
 
 ---
 
-## 📁 Project Structure
-
-project-root/
-│
-├── css/
-│ └── style.css # Main stylesheet
-├── img/
-│ ├── profile.jpeg # Profile image
-│ ├── favicon.png # Favicon
-│ └── ... # Add your own images here
-│
-└── index.html # Main HTML file
-
----
-
 ## 🧰 Technologies Used
 
 - HTML5
@@ -42,17 +25,6 @@ project-root/
 - SVG Icons
 
 ---
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/photography-portfolio.git
-   ```
-
-   cd photography-portfolio
-   open index.html
 
 ### 📷 Credits
 
